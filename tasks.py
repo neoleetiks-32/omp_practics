@@ -15,8 +15,15 @@ def fizzbuzz(n):
         fizzbuzz(15) -> "FizzBuzz"
         fizzbuzz(7) -> "7"
     """
-    # Реализовал(а): ...
-    raise NotImplementedError
+    # Реализовал(а): Зуев Михаил
+    if n % 3 ==0 and n % 5 == 0:
+        return "FizzBuzz"
+    if n % 3 == 0:
+        return "Fizz"
+    if n % 5 == 0:
+        return "Buzz"
+    if n % 3 != 0 and n % 5 != 0:
+        return str(n)
 
 
 def is_prime(n):
@@ -27,5 +34,5 @@ def is_prime(n):
         is_prime(9) -> False
         is_prime(1) -> False
     """
-    # Реализовал(а): ...
+    # Реализовал(а): Зуев Михаил
     raise NotImplementedError
